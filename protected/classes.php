@@ -1,0 +1,26 @@
+<?php
+return <<<END
+<h1>Collabor8r Classes:</h1>
+<p>With classes, instructors and students can collabor8ively identify, discuss, and share contents. Only the students submitting contents for classes and the instructor of the class can identify that a particular submission was made for a class. Class submissions are specially marked for instructors and stripped of information about who made the submission to enable instructors to objectively score submissions. The submissions are also marked for the students and include the corresponding scores once the instructor has graded their submissions. Additionally, summary tables help students and instructors manage their classes and keep track of grades in a format that can be copied and pasted into most spreadsheet software. Only registered users can create, manage, and join classes. </p>
+<h2>For Instructors:</h2>
+<h3>Starting a class:</h3>
+<li>Log in and click "Classes" in menu at the top right of the page.</li>
+<li>Click "Start A Class!"</li>
+<li>Enter a meaningful name  and a password for the class.</li>
+<li>If you'd like your students to be able to find your class, leave the box checked. If you leave the box checked you can give your students the url for your classes page and they can join your class by clicking on the appropriate button and entering the password. Otherwise, you'll have to provide your students with the class' ID and the password.  Class IDs can be found next to the class names on your classes page.
+<li>Click "START THIS CLASS" and you should be good to go.</li>
+<h3>Managing Classes:</h3>
+<p>To delete a class or drop students from a class, click the appropriate buttons on the summary pages. NOTE: These actions cannot be undone, so make any copies you might need before dropping students or deleting classes.</p>
+<h3>Grading submissions and viewing summaries:</h3>
+<p>Student submissions will automatically show up on your feed. If you hide a submission they will no longer show on your feed but they will always show up on the relevant class pages. Ungraded submissions will appear with a red form that you can use to submit a score from 0-100. Graded submissions will appear with a light blue form that you can use to update grades. </p>
+<p>To get more information about individual classes, go to your classes page. For each class you're instructing you'll see the name and id of the class, the number of different types of submissions, and appropriate actions. By clicking on the number of submissions for a class, you can view those submissions. When there are submissions to be graded, the submissions will appear surrounded by red. If you are grading comments and can't find a particular comment, pull up all the comments for a story as only the most recent comment will show up by default. By clicking on the name of the class on your classes summary page you can gain summary information about the specific class. If students have joined your class, you'll see the names of each student, how many submissions they've made, their cumulative scores for all of their submissions, and an option to drop them from your course. </p>
+<p>By selecting the summary table for a specific class, you can copy and paste the information into a number of spreadsheet applications to easily incorporate their grades from collaborat8r with your existing rosters. </p>
+<h2>For Students:</h2>
+<h3>Joining a class:</h3>
+<p>If your instructor has provided you with a link, go to the link and click "Join" for the appropriate class. Otherwise, go to your classes page, click "Join A Class," and enter the ID number your instructor should have provided you. Additionally, you will need to enter the password your instructor provided and a display name that your instructor will use to make sure you get credit for your submissions. Your display name is never shown to your instructor while they are grading your submissions, but it does appear on their class summary page along with the number of submissions you've made and the cumulative scores for your submissions. To make sure you get credit, use the format your instructor suggests. If your instructor hasn't told you how they'd like your name to appear enter your name as follows: Last, First M.I. If you share the same name with another student, please include other information that will help your instructor assign credit to the right person. </p>
+<h3>Dropping a class:</h3>
+<p>Go to your classes page and click drop next to the appropriate class. NOTE: This action cannot be undone. If you are dropping the class at the end of the semester, please wait until you receive your official grades before you drop your classes.</p>
+<h3>Submitting a story or comment for class:</h3>
+<p>Submit the story or comment as you would normally but make sure you select the appropriate class from the drop down list that will appear when you are a member of one or more classes. NOTE: Submissions for class cannot be abandoned without dropping the class and users can only submit content to a class when they make the initial submission. So double check that you're submitting to the right class before you submit the story or comment.</p>
+END;
+?>

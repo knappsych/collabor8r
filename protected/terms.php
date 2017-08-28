@@ -1,0 +1,27 @@
+<?php
+return <<<END
+<h1>Terms of Service</h1>
+<p>To become a member of this site and gain access to functions restricted to logged in members you must agree to the following terms.</p>
+<h2>Submission Guidelines:</h2>
+<p>Collabor8r was designed to help people share and discuss publicly-available, academically-relevant electronic content.  Given the broad nature of academic inquiry, a wide variety of content may be acceptable for submission to this site.  Below are some guidelines for our members to follow when submitting or discussing content.  Submissions not conforming to these guidelines may be deleted and users who repeatedly ignore these guidelines may find their accounts temporarily or permanently disabled.</p>
+<li>Pornographic Content: Submitting pornographic content is strictly prohibited.  However, contents related to pornography may be acceptable provided that they are appropriately framed.  For example, although a link to some of Robert Mapplethorpe's more controversial works would most likely be inappropriate, a link discussing the controversial nature of some of his work or his use of light and texture would probably be acceptable. If you have a question as to the appropriateness of some content, you probably shouldn't submit it.</li>
+<li>Nudity and Overtly Sexual Non-Pornographic Content: Although these submissions may be acceptable when appropriately framed, users submitting such content should make sure to identify such content as not safe for work (NSFW).</li>
+<li>SPAM: Submitting promotional contents is generally prohibited unless appropriately framed. For example, a link to a skin lotion commercial featuring babies could be appropriate when framed as an example of using positive pre-existing associations in marketing. Individuals submitting such materials can help to frame their submissions using the comment feature. Providing appropriate tags can also be helpful in this regard.</li>
+<li>Security Threats: Any submissions or behavior that could pose a threat (e.g. a link to a malware site or an attempt to use cross-site scripting) to this site or its users are strictly prohibited.</li>
+<li>Submissions that are abusive, harassing, hateful, and/or incite violence are generally prohibited. However, when appropriately framed, links to contents of this nature may be appropriate. For example, in a discussion about how racist groups are using media to recruit new members, it could be appropriate to provide a link to a white supremacist's website.</li>
+<p>Users who identify submissions not conforming to these guidelines are encouraged to report them. To facilitate this process, links to report contents are provided next to the submission information.</p>
+<h2>Privacy:</h2>
+<p>Collabor8r is very concerned about privacy. We believe that privacy, when used appropriately, can help foster academic freedom and intellectual discussion. In order to so foster intellectual discussion we allow users to submit stories and comments anonymously or anonymize their submissions after the fact. Users can also reclaim anonymous submissions, if they wish. Anonymous submissions will not appear on the submitter's publicly viewable page or in the feeds of individuals following them unless those individuals have collabor8ed on the story (i.e. tagged or commented on it). Anonymous submissions made for classes could potentially be traced back to the submitting individuals only by the instructors of the classes for which the submissions were made.</p>
+<p>User and display names are publicly visible. Therefore, any users concerned about their privacy may wish to be careful in choosing these names.</p>
+<p>Your IP address may be provided to 3rd party services to help them generate relevant advertisements appropriate for your geographic location.</p>
+<p>Other than the exceptions noted above, personally identifying information (e.g. your email address) will not be released to third parties except:</p>
+<li>When required by law.</li>
+<li>When the user has egregiously violated these terms (e.g. harassing another collabor8r etc.).</li>
+<li>When required by common decency (e.g. a user posts that they are going to commit suicide).</li>
+<p>In any of these cases, only the relevant authorities will be provided with the collabor8r's personally identifying information.</p>
+<h2>Continuity:</h2>
+<p>Collabor8r is concerned about the continuity of discussions on this site. Because of this, we don't allow users to edit or delete their submissions once they have been accepted. If you made a silly, non-anonymous grammar/spelling mistake or voiced an opinion that you're having second thoughts about, log in and anonymize it. The primary exceptions to continuity relate to submissions that don't conform to the above guidelines. In such cases, offending submissions and contents dependent on the submission (e.g. tags or grades) may be deleted. In the case a collabor8r wishes to delete their account, authorship for all of their submissions will be assigned to a generic user.</p>
+<h2>Revisions:</h2>
+<p>Collabor8r reserves the right to update these terms of service. Continued use of member-restricted functions after any updates to these terms will be dependent on the user's acceptance of the new terms.</p>
+END;
+?>

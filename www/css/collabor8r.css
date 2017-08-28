@@ -1,0 +1,455 @@
+html{
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body 
+{							 
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: white; 
+	background-color: #9FDCDF;
+	font-size: .7em;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	margin: .2em 0em 0em 2em;
+}
+.bigwrap
+{
+	width:95%;
+	min-height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.head
+{
+	background-color: #004D51;
+	padding: 0em .5em .2em;
+	font-size: 2em;
+}
+
+.login
+{
+	background-color: #01747A;
+	padding: 10px 20px 10px 20px;
+}
+
+.login a{
+	text-decoration: none;
+	color: white;							
+	background-color: #01747A;			 
+	padding: .1em 0em .1em 0em;
+}
+
+.nav
+{
+	background-color: #019AA2;
+	padding: 10px 20px 10px 20px;
+}
+
+.content
+{
+	background-color: white;
+	color: black;
+	padding: 10px 20px 10px 20px;
+}
+
+.foot
+{
+	background-color: #004D51;
+	padding: 10px 20px 10px 20px;
+}
+
+.pnav
+{
+	float: right;
+	margin-right: .5em;
+}
+
+.nodisplay
+{
+	display: none;
+}
+
+.inline
+{
+	display: inline;
+}
+
+#pmask
+{
+	position: fixed;/*When this was absolute scrolling would reveal partial coverage
+	z-index: 100; /*The mask appears before the page, use z index of 100 to leave room for later development*/
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	opacity: .4;
+	filter: alpha(opacity=40);/*needed for IE*/
+	background-color: #004D51;
+	display:none;/*we'll change this with Javascript*/
+}
+#pup
+{
+	position: fixed;
+	top: 8%;
+	left: 5%;
+	width: 540px;
+	padding: 15px;
+	background-color: #ffffff;
+	color: black;
+	border: outset;
+	border-color: #004D51;
+	display:none;
+	overflow-y: auto;
+	overflow-x: none;
+}
+
+.clickable_span
+{
+	cursor: pointer;
+}
+
+.caution{
+	color: red;
+}
+
+.link{
+	text-decoration: none;
+	color: #01747A;
+}
+
+.covertlink{
+	text-decoration: none;
+	color: black;
+}
+
+.participate{
+	color: #01747A;
+}
+
+.bumpright{
+	margin-left: 2.5%;
+	margin-bottom: 5px;
+}
+
+.tagsdiv{
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EEEEEE;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #004D51;
+	padding: 2px;
+	text-align: center;
+}
+
+.storywrapper{
+position: relative;
+}
+
+.tags{
+	float:right;
+	text-align: center;
+	width: 33%;
+	min-width: 18em;
+	margin: 10px;
+/*	background-color: #E9F4F5; */
+	border-style: solid;
+	border-width: 1px;
+	border-color: #004D51;
+	border-radius: .8em;
+	-moz-border-radius: .8em;
+	padding: 5px;
+}
+
+.tag{
+	font-weight:bold;
+	font-size: .9em;
+	text-decoration: none;
+	padding: 2px;
+}
+
+.mytag{
+	color: #01747A;
+}
+
+.headlink{
+	text-decoration: none;
+	padding-top: .2em;
+	color: white;
+}
+
+.visible{
+	visibility:visible;
+}
+
+.hidden{
+	visibility:hidden;
+}
+
+.isaccessible{
+	visibility:hidden;
+	display:none;
+}
+
+.verticalspacer{
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+.outlined{
+border-color: #004D51;
+border-style: solid;
+border-width: 1px;
+padding: 5px;
+}
+
+.closer{
+z-index:100;
+float:right;
+}
+
+.classheader{
+font-weight:bold;
+font-size:1.2em;
+}
+
+.classdiv{
+margin-left: 2.5%;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.classtab{
+margin-bottom:10px;
+}
+
+.votes{
+font-size: .85em;
+float:left;
+margin: 5px 10px 0px 5px;
+text-align: center;
+}
+
+.votedsig{
+background-color: #019AA2; /*good green #4BDB46*/
+margin-bottom: 3px;
+width: 4em;
+padding: 1px 5px 3px;
+cursor: pointer;
+font-weight: bold;
+color: white;
+border-radius: .5em;
+-moz-border-radius: .5em;
+}
+
+.votednsg{
+background-color: #C4544F; /*good red #D62752*/
+width: 4em;
+padding: 1px 5px 3px;
+cursor: pointer;
+font-weight: bold;
+color: white;
+border-radius: .5em;
+-moz-border-radius: .5em;
+}
+
+.voteforsig{
+background-color: #D1EEF0; /*good green #4BDB46*/
+margin-bottom: 3px;
+width: 4em;
+padding: 1px 5px 3px;
+cursor: pointer;
+font-weight: bold;
+color: #004D51;
+border-radius: .5em;
+-moz-border-radius: .5em;
+}
+
+.votefornsg{
+background-color: #F0ABA8; /*good red #D62752*/
+width: 4em;
+padding: 1px 5px 3px;
+cursor: pointer;
+font-weight: bold;
+color: #330402;
+border-radius: .5em;
+-moz-border-radius: .5em;
+}
+
+
+
+table{
+border-collapse:collapse;
+margin-left: 2em;
+text-align: center;
+}
+
+
+th{
+border-bottom: 5px double #019AA2;
+padding: 0px 10px;
+}
+
+tr{
+border-bottom: 1px solid #019AA2;
+}
+
+td{
+padding: 2px 10px;
+}
+
+.totalrow{
+border: none;
+}
+
+/*
+tr{
+padding: 2px, 6px;
+text-align: center;
+border-style: solid none none;
+border-color: #019AA2;
+}
+*/
+
+.headopt{
+display: inline;
+float: right;
+color: white;
+font-size: .6em;
+margin: .6em .5em;
+position: relative;
+top: .2em;
+}
+
+.footopt{
+display: inline;
+color: white;
+margin: 0em .5em;
+}
+
+.story{
+font-size: 1em;
+margin-bottom: 1.5em;
+}
+
+.comments{
+	font-size: .9em;
+	margin-left: 2em;
+	padding: 0 0 .5em .5em;
+}
+
+.comment{
+	position: relative;
+	margin: .5em;
+	border: 1px solid lightgrey;
+	border-radius: .8em;
+	-moz-border-radius: .8em;
+	padding: .5em;
+	overflow: auto;
+}
+
+.contenttitle{
+font-size: 1.2em;
+}
+
+.contentbody{
+padding-top: .2em;
+min-height: 3.5em;
+}
+
+.contentbodycomment{
+padding-top: .2em;
+}
+
+.contentbodywithgrade{
+padding-top: .2em;
+min-height: 4.4em;
+}
+
+.author{
+font-size: .9em;
+margin: 0 0 .2em 2em;
+}
+
+.grade{
+font-size: .85em;
+float:left;
+margin: .1em 1em .2em 0;
+background: #D1EEF0;
+color: black;
+width: 5em;
+min-height: 4em;
+text-align: center;
+padding: .5em 0;
+border-radius: .5em;
+-moz-border-radius: .5em;
+}
+
+.gradeaction{
+padding: .5em 0 0 0;
+}
+
+.thegrade{
+font-size: 2em;
+}
+
+.gradeneed{
+background: #F0ABA8;
+}
+
+.blacktext{
+color: black; 
+}
+
+.vertban{
+float: left;
+margin: .3em 1em .3em 0em;
+}
+
+.horban{
+clear: both;
+margin: .3em auto .3em auto;
+text-align: center;
+}
+
+.reply{
+margin-left: 2em;
+}
+
+.optbox{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #004D51;
+	width: 40em;
+	padding: 1em 2em;
+}
+
+.center{
+	text-align: center;
+}
+
+.beta{
+	font-size: .4em;
+}
+
+.clearad{
+clear: both;
+}
+.logo{
+ display: inline;
+ position: relative;
+ top: .2em;
+}

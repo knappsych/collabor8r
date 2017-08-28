@@ -1,0 +1,4 @@
+#Ignore the private functions
+**private.php
+**.htpasswd
+sandy/
